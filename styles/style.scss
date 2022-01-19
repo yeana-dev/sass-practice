@@ -1,7 +1,7 @@
 $primaryBtn: lightblue;
 
 header {
-  background-color: lightblue;
+  background-color: $primaryBtn;
   display: flex;
   justify-content: center;
 }
