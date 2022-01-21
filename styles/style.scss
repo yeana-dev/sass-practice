@@ -1,4 +1,5 @@
 $primaryBtn: lightblue;
+$helveticaFamily: Helvetica, Arial, sans-serif;
 
 header {
   background-color: $primaryBtn;
@@ -10,5 +11,6 @@ header {
   font : {
     size: 12px;
     decoration: bold;
+    family: $helveticaFamily;
   }
 }
