@@ -1,6 +1,12 @@
 $primaryBtn: lightblue;
 $helveticaFamily: Helvetica, Arial, sans-serif;
 
+@mixin theme($theme: DarkGray) {
+  background: $theme;
+  box-shadow: 0 0 1px rgba($theme, 0.25);
+  color: #fff;
+}
+
 header {
   background-color: $primaryBtn;
   display: flex;
@@ -13,4 +19,8 @@ header {
     decoration: bold;
     family: $helveticaFamily;
   }
+}
+
+.info {
+  @include theme;
 }
